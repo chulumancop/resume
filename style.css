@@ -4,11 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-height: 100%;
+    min-width:100%;
+    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+}
 main
 {
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
-    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+    min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
